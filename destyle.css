@@ -79,7 +79,7 @@ h2 {
 /* BOTÓN */
 .btn {
     display: inline-block;
-    background-color: #ff6f61;
+    background-color: #002244;
     color: white;
     padding: 0.8rem 1.5rem;
     text-decoration: none;
@@ -91,7 +91,7 @@ h2 {
 }
 
 .btn:hover {
-    background-color: #e75f54;
+    background-color: #005577;
 }
 
 .text-center {
