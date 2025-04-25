@@ -4,21 +4,21 @@ const destinos = [
         nombre: "Playa del Sol",
         pais: "España",
         descripcion: "Disfruta de la tranquilidad y las hermosas vistas del mar en Playa del Sol.",
-        imagen: "imgs/img2.jpg",
+        imagen: "images/img2.jpg",
         enlace: "#"
     },
     {
         nombre: "Montañas de la Sierra",
         pais: "México",
         descripcion: "Vive una experiencia única entre las impresionantes montañas y senderos naturales.",
-        imagen: "imgs/img1.jpg",
+        imagen: "images/img1.jpg",
         enlace: "#"
     },
     {
         nombre: "Ciudad Colonial",
         pais: "Colombia",
         descripcion: "Descubre la rica historia y cultura de nuestra hermosa ciudad colonial.",
-        imagen: "imgs/img3.jpg",
+        imagen: "images/img3.jpg",
         enlace: "#"
     }
 ];
