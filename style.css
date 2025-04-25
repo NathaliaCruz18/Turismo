@@ -41,6 +41,8 @@ nav ul li a {
 section {
     padding: 2rem;
     margin: 1rem 0;
+    display: grid;
+    place-items: center;
 }
 #btnDes{
     padding: 0.7rem;
