@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FELIZ VIAJE</title>
+    <title>Feliz Viaje | Turismo Mundial</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Bienvenidos a la Página de Turismo "FELIZ VIAJE"</h1>
+        <h1>Bienvenidos a la Página de Turismo</h1>
         <nav>
             <ul>
                 <li><a href="#destinos">Destinos</a></li>
@@ -19,44 +20,58 @@
         </nav>
     </header>
 
-    <section id="destinos">
-        <h2>Destinos Turísticos</h2>
-        <p>Descubre los mejores destinos turísticos alrededor del mundo.</p>
-        <img src="images/turistico.jpg" alt="imagenDestinos">
-        <button id="btnDes"><a href="destinos.html">ver los destinos</a></button>
-    </section>
+    <main>
+        <section id="destinos" class="section">
+            <div class="container">
+                <h2>Destinos Turísticos</h2>
+                <p>Descubre los lugares más asombrosos para visitar alrededor del mundo.</p>
+                <img src="images/turistico.jpg" alt="Paisaje turístico" class="responsive-img">
+                <a href="destinos.html" class="btn">Ver Destinos</a>
+            </div>
+        </section>
 
-    <section id="actividades">
-        <h2>Actividades</h2>
-        <p>Disfruta de actividades emocionantes en tu destino favorito.</p>
-        <button id="btnDes"><a href="servicios.html">Ver los servicos</a></button>
-    </section>
+        <section id="actividades" class="section bg-light">
+            <div class="container">
+                <h2>Actividades</h2>
+                <p>Explora actividades inolvidables que te esperan en cada destino.</p>
+                <a href="servicios.html" class="btn">Ver Actividades</a>
+            </div>
+        </section>
 
-    <section id="galeria">
-        <h2>Galería de Imágenes</h2>
-        <p>Explora algunas de las mejores imágenes de los destinos turísticos.</p>
-        <div class="imagenes">
-            <img src="images/galleryImages/Lug.jpg" alt="Imagen 1">
-            <img src="images/galleryImages/Huaraz.jpg" alt="Imagen 2">
-            <img src="images/galleryImages/Peru.jpg" alt="Imagen 3">
+        <section id="galeria" class="section">
+            <div class="container">
+                <h2>Galería</h2>
+                <p>Inspírate con las imágenes de los destinos más espectaculares.</p>
+                <div class="gallery">
+                    <img src="images/galleryImages/Lug.jpg" alt="Lugares" class="gallery-img">
+                    <img src="images/galleryImages/Huaraz.jpg" alt="Huaraz" class="gallery-img">
+                    <img src="images/galleryImages/Peru.jpg" alt="Perú" class="gallery-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section bg-light">
+            <div class="container">
+                <h2>Contacto</h2>
+                <form id="formContacto" class="contact-form">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Feliz Viaje. Todos los derechos reservados. Creado por estudiantes de SENATI.</p>
         </div>
-    </section>
-
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <form id="formContacto">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-    <script src="javaScript.js"></script>
-    <footer>
-        <p>&copy;todos los derechos reservados. Estudiantes de SENATI</p>
     </footer>
+
+    <script src="javaScript.js"></script>
 </body>
 </html>
