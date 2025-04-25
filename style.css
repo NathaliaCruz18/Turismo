@@ -90,13 +90,6 @@ form {
     display: flex;
     flex-direction: column;
     max-width: 400px;
-=======
-/* CONTENEDOR GENERAL */
-.container {
-    width: 90%;
-    max-width: 1200px;
->>>>>>> 7b7ac4a83285e7655949e34766f5310ed3ff327d
-    margin: 0 auto;
 }
 
 /* HEADER */
