@@ -20,6 +20,34 @@ const destinos = [
         descripcion: "Descubre la rica historia y cultura de nuestra hermosa ciudad colonial.",
         imagen: "images/img3.jpg",
         enlace: "#"
+    },
+    {
+        nombre: "pasiaje Peru",
+        pais: "Peru",
+        descripcion: "Descubre la rica historia y cultura de nuestra hermosa ciudad colonial.",
+        imagen: "images/img4.jpg",
+        enlace: "#"
+    },
+    {
+        nombre: "pasiaje Peru",
+        pais: "Peru",
+        descripcion: "Descubre la rica historia y cultura de nuestra hermosa ciudad colonial.",
+        imagen: "images/img5.jpg",
+        enlace: "#"
+    },
+    {
+        nombre: "pasiaje Peru",
+        pais: "Peru",
+        descripcion: "Descubre la rica historia y cultura de nuestra hermosa ciudad colonial.",
+        imagen: "images/img6.jpg",
+        enlace: "#"
+    },
+    {
+        nombre: "pasiaje Peru",
+        pais: "Peru",
+        descripcion: "Descubre la rica historia y cultura de nuestra hermosa ciudad colonial.",
+        imagen: "images/img7.jpg",
+        enlace: "#"
     }
 ];
 
