@@ -5,7 +5,7 @@ document.getElementById('formContacto').addEventListener('submit', function(even
     const email = document.getElementById('email').value;
 
     if (nombre && email) {
-        alert(`¡Gracias por contactarnos, ${nombre}!`);
+        alert(`¡Gracias por contactarnos, ${nombre}! Nos comunicaremos con usted `);
     } else {
         alert('Por favor, complete todos los campos.');
     }
